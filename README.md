@@ -21,6 +21,8 @@ INSTRUCTION
       Date       | Ticker | Price | Amount
       2022-08-03 | ZIM    | 70.07 | 20
       
+  Open as a folder, run routes.py, open your brower, type localhost:5000.
+  
   Since I don't know how to do things, after uploading your file, save and re-run the routes.py. Your portfolio should appear.
  
   If you don't need all these, open just_line.py, put file path and tickers you wish to compare, then run.
