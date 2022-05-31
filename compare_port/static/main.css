@@ -1,0 +1,119 @@
+* {
+  font-size: 100%;
+  font-family: "Book Antiqua";
+  font-weight:bold;
+  
+}
+
+body {
+    background: #000000;
+    color: #333333;
+    margin-top: 5rem;
+  
+  }
+  
+page-title {
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+  
+  .bg-steel {
+    background-color: #000000;
+  }
+  .site-header .navbar-nav .nav-link {
+    font-size: 1.2rem;
+  }
+  .site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  
+  }
+  
+
+  .chart-title {
+    white-space: pre-line;
+    color: #949494;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .table {
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  border-collapse:collapse;
+  border-spacing:10;
+}
+
+.table .table-ekaw{
+  background-color:#000000;
+  border-color:#ffffff;
+  color:#ffffff;
+  
+  font-weight:bold;
+  font-size: 1.5rem;
+  text-align:center;
+  vertical-align:top}
+
+.table .table-3nop{
+  background-color:#000000;
+  border-color:#999999;
+  color:#999999;
+  text-align:center;
+  vertical-align:top}
+
+
+
+  .custom-file-input::-webkit-file-upload-button {
+    display: none;
+    border-width: 0 0 2px;
+    border-color: rgb(157, 157, 157)
+  }
+  .custom-file-input::before {
+    content: 'Select .CSV';
+    background: #000000;
+    color: #ffffff;
+    padding: 2.9rem;
+    border-width: 0 0 2px;
+    border-color: rgb(157, 157, 157);
+ 
+  }
+
+  .center-field {
+    position: relative;
+    text-align: center;
+    border-width: 0 0 2px;
+    border-color: rgb(157, 157, 157)
+  }
+
+
+
+  input {
+    outline: 0;
+    font-size: 2.5rem;
+    position: relative;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    border-width: 0 0 2px;
+    border-color: rgb(176, 173, 173)
+  }
+  input:focus, :hover {
+    border-color: rgb(255, 255, 255)
+  }
+
+  input[type="file"]{
+    display: none;
+ 
+
+  }
+
+  label{
+    font-size: 3.5rem;
+    color: #999999;
+  }
+  label:hover{
+ 
+    color: #fcfcfc;
+  }
+

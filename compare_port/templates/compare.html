@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+    <page-title>COMPARE</page-title>
+    
+    <div id = "chart"></div>
+
+    <form method = "POST">
+      <p class="center-field"><input type = "text" placeholder="Symbol" name = "Name" size="8"/></p>
+        <p class="center-field"><input type = "submit" value="Reset" size="3"/></p>
+   </form>
+
+
+
+
+
+
+    <!--plotly CDN -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+      var graph1 = {{ lineJSON | safe}};
+      Plotly.plot("chart", graph1, {})
+    </script>
+{% endblock %}
