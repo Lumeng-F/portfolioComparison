@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content %}
+    <page-title>POSITION</page-title>
+    <div id = "chart"></div>
+    
+    <table class="table">
+        <tr>
+        <th class="table-ekaw">Ticker</th>
+        <th class="table-ekaw">Amount</th>
+        <th class="table-ekaw">Percent</th>
+        </tr>
+        {% for pos in posdic %}
+        <tr>
+          <td class="table-3nop">{{ pos.ticker }}</td>
+          <td class="table-3nop">{{ pos.amount }}</td>
+          <td class="table-3nop">{{ pos.percent }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+
+
+    <!--plotly CDN -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+      var graph1 = {{ pieJSON | safe}};
+      Plotly.plot("chart", graph1, {})
+
+    </script>
+{% endblock %}
