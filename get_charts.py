@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import yfinance as yf
-
+pd.options.mode.chained_assignment = None
 
 # Init dataframe
 trans = pd.read_csv('../compare_port/static/user_csv/userupload.csv')
